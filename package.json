@@ -1,0 +1,19 @@
+{
+  "name": "seshell",
+  "version": "1.0.0",
+  "description": "shell to api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptist/seshell.git"
+  },
+  "author": "Jigme Ko <jigme1968@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emptist/seshell/issues"
+  },
+  "homepage": "https://github.com/emptist/seshell#readme"
+}
