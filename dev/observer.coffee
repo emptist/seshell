@@ -48,8 +48,8 @@ dbconnected (err, db)->
           盡量簡化,將來不用Python接口時,這些代碼也不用改,只需取前半部分
           系統內部用的是前半部分,英文部分是針對Python接口的
         ###
-        券商接口.提取資料 '最新持倉,getPosition'
-        券商接口.提取資料 '可撤單,getWOrders'
+        券商接口.提取資料 '查詢持倉,getPosition'
+        券商接口.提取資料 '查可撤單,getWOrders'
 
       interval = setInterval 跟蹤行情, 間隔
 

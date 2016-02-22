@@ -1,3 +1,4 @@
+Pysh = require 'python-shell'
 ### 券商接口
 基本功能:
   提取資料:回報賬戶等資料
@@ -23,7 +24,6 @@ Path
   或個別設置,如以下代碼所示,注意,該script再引用其他script,會在正確的路徑中引用,不須設置
 ###
 
-Pysh = require 'python-shell'
 
 options =
   mode:'json'
