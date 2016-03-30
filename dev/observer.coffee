@@ -49,7 +49,7 @@ dbconnected (err, db)->
           系統內部用的是前半部分,英文部分是針對Python接口的
         ###
         券商接口.提取資料 '查詢持倉,getPosition'
-        券商接口.提取資料 '查可撤單,getWOrders'
+        #券商接口.提取資料 '查可撤單,getWOrders'
 
       interval = setInterval 跟蹤行情, 間隔
 
