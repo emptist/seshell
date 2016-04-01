@@ -28,7 +28,7 @@ dbconnected (err, db)->
     間隔 = 5*1000
     開市時間 = 3*10*1000  #兩小時 #15000 #兩小時
 
-    券商接口.就緒 (err,data)->
+    券商接口.連接成功 (err,data)->
       if err then throw(err)
       util.log('已接通券商..')
       跟蹤行情 = ->
